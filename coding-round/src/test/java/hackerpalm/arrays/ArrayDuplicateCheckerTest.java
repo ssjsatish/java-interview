@@ -15,7 +15,7 @@ public class ArrayDuplicateCheckerTest {
 
     @Test
     void testArrayWithoutDuplicates() {
-        int[] arr = {1, 2, 3, 4};
+        int[] arr = {1, 2, 3, 4,78,9};
         assertFalse(ArrayDuplicateChecker.hasDuplicate(arr));
     }
 
